@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const chatGPTAPIEndpoint = 'https://api.openai.com/v1/chat/completions'; // Adjust if needed
-const apiKey = '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'; // Securely manage your API key
+//const apiKey = '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'; // Securely manage your API key
 
 export const getChatGPTResponse = async (topic) => {
   try {
